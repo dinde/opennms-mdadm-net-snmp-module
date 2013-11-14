@@ -1,3 +1,5 @@
+!!! Some blocks are not displaying on github.com. Please check this file as raw or consult the wiki page. !!!
+
 We were looking forward for a decent solution to monitor our software raid (mdadm) server running under Linux (Debian & Centos to be specific).
 Many different implementations were avalaible, we wanted to pick one that respect the spirit of opennms avoiding a script to be called on each check.
 Snmp polling is realy performant and scalable in Opennms so it mades sense to us to find a solution using snmp.
