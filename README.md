@@ -1,10 +1,12 @@
-!!! Some blocks are not displaying on github.com. Please check this file as raw or consult the wiki page. !!!
+!!! Some blocks are not displaying on github.com. 
+!!! Please check this file as raw.
+!!! https://raw.github.com/dinde/opennms-mdadm-net-snmp-module/master/README.md
 
 We were looking forward for a decent solution to monitor our software raid (mdadm) server running under Linux (Debian & Centos to be specific).
 Many different implementations were avalaible, we wanted to pick one that respect the spirit of opennms avoiding a script to be called on each check.
 Snmp polling is realy performant and scalable in Opennms so it mades sense to us to find a solution using snmp.
 The other problem is that we wanted an easy to implement solution and we have found this excellent project: https://github.com/stefansaraev/snmp-swraid
-This implementation works as a net-snmp module.
+This implementation works as a net-snmp module, do not forget to consult README.original for more informations about it.
 Basicly, we compiled it once on a debian server with the correct dependencies then copied the .so file on each node with a software raid array running.
 Compilation
 
