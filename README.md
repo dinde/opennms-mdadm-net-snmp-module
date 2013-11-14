@@ -169,8 +169,6 @@ Add:
            <parameter key="operand" value="2"/>
        </service>
 
-[...]
-
    <monitor service="Mdadm_Array_1" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
    <monitor service="Mdadm_Array_2" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
    <monitor service="Mdadm_Array_3" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
